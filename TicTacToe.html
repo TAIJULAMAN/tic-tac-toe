@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tic Tac Toe</title>
+
+    <link type="text/css" rel="stylesheet" href="Styles/Style.css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="menuBar" style="text-align:right; padding-top:20px">
+            <button id="btnReset"><i class="fa fa-refresh" title="Restart the game." style="font-size: 30px;color: maroon"></i></button>
+           
+        </div>
+        <div id="divOption" class="option">
+            <label>Tic Tac Toe</label><br /><br /><br/>
+            <label id="msg" style="font-size:20px;color:red"></label>
+            <!--<input type="radio" name="avatar"><i class="fa fa-heart" style="font-size:50px;color:red"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="avatar"><i class="fa fa-music" style="font-size:50px;color:goldenrod"></i>-->
+        </div>
+        <div id="dvTable" class="divTable">
+            <table id="mainTable">
+                <tr>
+                    <td id="C0" class="cell"></td>
+                    <td id="C1" class="cell"></td>
+                    <td id="C2" class="cell"></td>
+                </tr>
+                <tr>
+                    <td id="C3" class="cell"></td>
+                    <td id="C4" class="cell"></td>
+                    <td id="C5" class="cell"></td>
+                </tr>
+                <tr>
+                    <td id="C6" class="cell"></td>
+                    <td id="C7" class="cell"></td>
+                    <td id="C8" class="cell"></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+
+        <script type="text/javascript" src="Scripts/Controllers.js"></script>
+        <script type="text/javascript" src="Scripts/TicTacToe.js"></script>
+</body>
+</html>
